@@ -1,0 +1,230 @@
+html {
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*-- begin header --*/
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: solid seashell 1px;
+  align-items: center;
+  background-color: black;
+  z-index: 1;
+}
+
+.logoDiv {
+  flex-grow: 1;
+}
+
+.logoDiv img {
+  display: flex;
+  height: 50px;
+  width: 180px;
+  padding-left: 10px;
+}
+
+header nav {
+  display: block;
+  justify-content: flex-end;
+  color: red;
+  padding-right: 10px;
+}
+
+header span {
+  padding: 10px;
+}
+
+header a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* -- end header -- */
+
+/*-- content --*/
+
+h2 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImg img {
+  height: 700px;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.mission {
+  background-color: black;
+  display: block;
+  width: 1200px;
+  max-height: auto;
+  text-align: center;
+  position: absolute;
+}
+
+.mission h2,
+.mission  h4{
+  padding: 10px;
+  margin: 0px;
+}
+
+
+/*-- items section --*/
+
+.list {
+  align-items: center;
+  width: 1000px;
+}
+
+.itemstitle {
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.list h2,
+.list h4 {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.item img {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  display: block;
+  padding: 20px 15px;
+}
+
+.item span {
+  padding: 20px;
+  font-size: 22px;
+  position: relative;
+}
+
+/*-- end items section --*/
+
+/*-- begin locations section --*/
+
+.locations {
+  background-image: url(./../images/teacup.jpg);
+  height: 500px;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.loctitle {
+  display: block;
+  position: absolute;
+  flex-wrap: nowrap;
+}
+
+.boxwrap {
+  padding-top: 110px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: black;
+  height: 215px;
+  width: 250px;
+  padding: 15px 20px;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: block;
+}
+
+.locations span {
+  display: block;
+  padding: 15px;
+  opacity: 1;
+}
+
+h3 {
+  font-size: 22px;
+  opacity: 1;
+  padding: 15px;
+  margin: 0;
+}
+
+/*-- end locations sections -- */
+/*-- contact section -- */
+
+.contact {
+  display: block;
+  height: 200px;
+  width: auto;
+  padding: 10px;
+}
+
+.contact h2 {
+  padding: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact span {
+  text-align: center;
+}
+
+/*-- end contact --*/
+/*-- footer --*/
+
+footer {
+  display: block;
+  padding-left: 20px;
+  margin: 0;
+  height: 20px;
+  width: 1200px;
+  /*position: absolute;*/
+}
+
+footer .span {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  text-align: left;
+}
